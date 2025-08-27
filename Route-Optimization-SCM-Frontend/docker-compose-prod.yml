@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+ scm-frontend-prod:
+   build:
+     context: .
+     dockerfile: Dockerfile.prod
+     args:
+       - VITE_APP_BACKEND_ADDRESS=
+   container_name: scm-frontend-prod
+   restart: always
+   ports:
+     - 5173:5173
+   networks:
+     - network
+networks:
+ network:
+
+#docker-compose -f docker-compose-prod.yml up --build

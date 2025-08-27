@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .responsive-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .form-field {
+    transition: all 0.3s ease;
+  }
+  
+  .form-field:focus-within {
+    box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.2);
+  }

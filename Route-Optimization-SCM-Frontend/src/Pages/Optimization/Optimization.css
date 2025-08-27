@@ -1,0 +1,26 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+@media (max-width: 768px) {
+  .google-map-controls {
+    display: none !important;
+  }
+}
+
+.map-container {
+  height: 100%;
+  width: 100%;
+}
+
+.gm-style {
+  touch-action: pan-x pan-y;
+}

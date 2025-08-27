@@ -1,0 +1,81 @@
+services:
+  # mysql
+  db-mysql:
+    image: mysql:5.7.40
+    restart: unless-stopped
+    environment:
+     - MYSQL_DATABASE=${DB_NAME}
+      - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
+      - MYSQL_USER=${DB_USER}
+      - MYSQL_PASSWORD=${DB_PASSWORD}
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${DB_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    ports:
+      - "3309:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    expose:
+      - 3306
+    networks:
+      - scm-network
+
+  # backend
+  backend:
+    build:
+      context: "../Route-Optimization-SCM-Backend"
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      - db-mysql
+    environment:
+      - DB_PORT=3306
+      - DB_HOST=db-mysql
+    ports:
+      - ${PORT}:${PORT}
+
+    volumes:
+      - ../Route-Optimization-SCM-Backend/src:/scm-api/backend/src
+      - ../Route-Optimization-SCM-Backend/wait-for.sh:/usr/local/bin/wait-for.sh
+    networks:
+      - scm-network
+
+  #frontend
+  scm-frontend-prod:
+    build:
+      context: "../EffiRoute-FE"
+      dockerfile: Dockerfile.prod
+      args:
+        - VITE_APP_BACKEND_ADDRESS=localhost:8080/api/v1
+    container_name: scm-frontend
+    restart: always
+    ports:
+      - 5173:5173
+    networks:
+      - scm-network
+
+  #route optimizer
+  route-optimizer:
+    build:
+      context: "../scm-route-optimization/route_optimizer"
+      dockerfile: .Dockerfile
+    ports:
+      - "8081:8000"
+    networks:
+      - scm-network
+    env_file:
+      - ../scm-route-optimization/.env
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+
+
+volumes:
+  mysql_data:
+
+networks:
+  scm-network:
+    driver: bridge
+#docker compose -p scm-fullstack -f docker-compose-prod.yml up -d --build
+# docker compose -p scm-fullstack -f docker-compose-prod.yml down 
+# docker exec -i scm-fullstack-db-mysql-1 mysql -uroot -p{YOUR_PASSWORD} --default-character-set=utf8mb4  scm < E:/Route-Optimization-Fullstack/production/init.sql

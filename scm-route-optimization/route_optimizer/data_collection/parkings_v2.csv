@@ -1,0 +1,19 @@
+Unnamed: 0,id,name,address,formatted_address,latitude,longitude,place_id
+0,parking_1,Bãi Đỗ Xe VSIP 1,"Đường số 2, Khu Công Nghiệp VSIP I, Thủ Dầu Một, Bình Dương","8 Hữu Nghị, Binh Hoà, Thuận An, Bình Dương, Việt Nam",10.9243858,106.7135795,ChIJn9_WQW_XdDERIn6MOQBROdc
+1,parking_2,Bãi Đỗ Xe Tân Bình,"246 Đường D1, Khu Công Nghiệp VSIP I, Thủ Dầu Một, Bình Dương","8 Hữu Nghị, Binh Hoà, Thuận An, Bình Dương, Việt Nam",10.9243858,106.7135795,ChIJn9_WQW_XdDERIn6MOQBROdc
+2,parking_3,Bãi Đỗ Xe Mỹ Phước,"Khu Công Nghiệp Mỹ Phước 1, Bến Cát, Bình Dương","Số 85 Đường D18A, KCN, Bến Cát, Bình Dương, Việt Nam",11.1171663,106.6000889,ChIJ3605rg7NdDERHHGECUzcZS0
+3,parking_4,Bãi Đỗ Xe Mỹ Phước 2,"Khu Công Nghiệp Mỹ Phước 2, Bến Cát, Bình Dương","4JJJ+R73, NA 6, Mỹ Phước, Bến Cát, Bình Dương, Việt Nam",11.1320152,106.6306686,ChIJyyuAnKjOdDERcOCBNl1Ajv8
+4,parking_5,Bãi Đỗ Xe Trảng Bàng,"Đường Nguyễn Thái Học, Trảng Bàng, Tây Ninh","Trảng Bàng, Tây Ninh, Việt Nam",11.0305044,106.3592655,ChIJAb8nBZsvCzERplsXjFn1808
+5,parking_6,Bãi Đỗ Xe Lê Lợi,"100 Đường Lê Lợi, Trảng Bàng, Tây Ninh","100 Lê Hồng Phong, Trảng Bàng, Tây Ninh, Việt Nam",11.0343806,106.3599979,EjcxMDAgTMOqIEjhu5NuZyBQaG9uZywgVHLhuqNuZyBCw6BuZywgVMOieSBOaW5oLCBWaWV0bmFtIjASLgoUChIJ1fcb4povCzERrIBBharaxH4QZCoUChIJs4Gi-ZovCzERO8ANa74Z60E
+6,parking_7,Bãi Đỗ Xe Ngã Ba Vũng Tàu,"Quốc lộ 51, Ngã Ba Vũng Tàu, Long Thành, Đồng Nai","QL51, Long Thành, Đồng Nai, Việt Nam",10.7497229,106.9699297,EidRTDUxLCBMb25nIFRow6BuaCwgxJDhu5NuZyBOYWksIFZpZXRuYW0iLiosChQKEgkDD31Y0Bh1MRED7VJip-0xIxIUChIJl2wkX4wedTERZpS2yYeAQXk
+7,parking_8,Bãi Đỗ Xe Thế Giới Di Động,"64 Quốc lộ 51, Long Thành, Đồng Nai","64 QL51, Tam Phước, Biên Hòa, Đồng Nai, Việt Nam",10.854,106.9281174,Ejc2NCBRTDUxLCBUYW0gUGjGsOG7m2MsIEJpw6puIEjDsmEsIMSQ4buTbmcgTmFpLCBWaWV0bmFtIjASLgoUChIJZ84JluUfdTERgd1fdsutwx8QQCoUChIJAw99WNAYdTERA-1SYqftMSM
+8,parking_9,Bãi Đỗ Xe Cần Thơ,"Đường Trần Văn Khéo, P. An Khánh, Q. Ninh Kiều, TP. Cần Thơ","Trần Văn Khéo, Cái Khế, Ninh Kiều, Cần Thơ, Việt Nam",10.0459251,105.7864441,ChIJgfFsIKlioDERkVFEnJNNBKg
+9,parking_10,Bãi Đỗ Xe Chợ Nổi Cái Răng,"Khu vực chợ nổi, Cái Răng, TP. Cần Thơ","An Bình, Ninh Kiều, Cần Thơ, Việt Nam",10.0050363,105.7459816,ChIJjS00tq-JoDERmDjx9Wm1ss0
+10,parking_11,Bãi Đỗ Xe Mỹ Tho,"Đường 30 Tháng 4, P. 1, TP. Mỹ Tho, Tiền Giang","Ba Mươi Tháng Tư, Phường 1, Thành phố Mỹ Tho, Tiền Giang, Việt Nam",10.3527994,106.364479,ChIJ3VGrMfOvCjERBxOZT8ibCGY
+11,parking_12,Bãi Đỗ Xe Bến Tre,"Đường Nguyễn Thị Định, TP. Bến Tre","Nguyễn Thị Định, Tp. Bến Tre, Bến Tre, Việt Nam",10.2543441,106.3925134,ChIJc-6ozf2oCjERFUMWSVGg9oE
+12,parking_13,Bãi Đỗ Xe Trà Vinh,"Đường Lê Lợi, P. 1, TP. Trà Vinh","Lê Lợi, Tp. Trà Vinh, Trà Vinh, Việt Nam",9.9431639,106.3419552,ChIJwW-e76sQoDERjth4wyPoNFw
+13,parking_14,Bãi Đỗ Xe Sóc Trăng,"Đường Phú Lợi, P. 2, TP. Sóc Trăng","Phú Lợi, Phường 2, Tp. Sóc Trăng, Sóc Trăng, Việt Nam",9.5979083,105.9646184,ChIJUYU6KgpSoDERxVftn0bKcGA
+14,parking_15,Bãi Đỗ Xe Long An,"Khu vực Bến Xe Long An, TP. Tân An, Long An","68/48, Hẻm, GCP3+WWQ, 68 Đ. Hùng Vương, Phường 2, Tân An, Long An, Việt Nam",10.53766,106.4047712,ChIJwy7Ppai3CjER4A8oFf3jGl4
+15,parking_16,Bãi Đỗ Xe An Giang,"Khu vực Bến Xe An Giang, TP. Long Xuyên","Bến Xe Long Xuyên, 392, P, Phạm Cự Lượng, Mỹ Quý, Tp. Long Xuyên, An Giang, Việt Nam",10.3583641,105.4341995,ChIJxYLalsZyCjERGrxUuzFri3Q
+16,parking_17,Bãi Đỗ Xe Kiên Giang,"Khu vực Bến Xe Kiên Giang, TP. Rạch Giá","Tp. Rạch Giá, Kiên Giang, Việt Nam",10.021507,105.0910974,ChIJL1I18YOzoDERioyAx9I-UAs
+17,parking_18,Bãi Đỗ Xe Vĩnh Long,"Khu vực Bến Xe Vĩnh Long, TP. Vĩnh Long","Bến xe khách Vĩnh Long, Phường 8, Thành phố Vĩnh Long, Vĩnh Long, Việt Nam",10.2383853,105.9576864,ChIJ9e7-LbiCCjERRs3axI44LEk
